@@ -1,10 +1,10 @@
 
-# Django Tutorial  
+# Django  
   
-## Install
+### Install
 $ pip install Django  
   
-## Tutorial
+### Tutorial
 * Part 1: Requests and responses
 * Part 2: Models and the admin site
 * Part 3: Views and templates
@@ -14,7 +14,7 @@ $ pip install Django
 * Part 7: Customizing the admin site
 
 
-## Command
+### Command
 
 * __migrate__  
 _- 계정, 권한, 그룹등 장고 어드민의 필수 테이블을 생성한다._  
@@ -28,4 +28,4 @@ $ ~/.pyenv/versions/app/bin/python manage.py makemigrations polls
 _- 이미 운영중인 테이블로 모델 클래스 생성_  
 $ ~/.pyenv/versions/app/bin/python manage.py inspectdb member member_sub > member/models.py  
   
-## Django API ( Django Rest Framework )
+### Django API ( Django Rest Framework )
