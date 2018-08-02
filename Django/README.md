@@ -29,3 +29,8 @@ _- 이미 운영중인 테이블로 모델 클래스 생성_
 $ ~/.pyenv/versions/app/bin/python manage.py inspectdb member member_sub > member/models.py  
   
 ### Django API ( Django Rest Framework )
+
+
+
+### 참조 
+* [Model](https://dean-kim.github.io/django/2017/05/17/Django-Models-Intro.html)
