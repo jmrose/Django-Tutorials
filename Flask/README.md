@@ -136,13 +136,42 @@ def board():
 
 > request.args, request.form, request.values 에 저장된 data는 MultiDict(ImmutableMultiDict) 데이터 타입을 갖는다
 
-__MultiDict 관련 메서드__
+* request.path
+* request.script_root
+* request.url
+* request.base_url
+* request.url_root
+* request.is_xhr : Ajax 요청인지 확인하기 위한 속성
+* request.blueprint : blueprint 속성
+* request.endpoint
+* request.url_rule
+* request.view_args : url 변수를 확인하는 속성
+* request.get_json() : request.data 를 json 형식으로 받는 속성
+* request.max_content_length
+
+* response.
+
+__[MultiDict](http://werkzeug.pocoo.org/docs/0.14/datastructures/) 관련 메서드__
 * get, getlist
 * set, setlist
 * add, pop
 
 __environ___
 > http 통신에서 사용되는 환경 변수를 담고 있는 사전  
+
+
+### Cookie & Session
+* Response.set_cookie("ID",  "설명")
+
+|인자|설명|
+|---|---|
+|key| 쿠키이름 |
+|value| 쿠키 값 |
+|max_age| 쿠키 지속시간 |
+|expires| 쿠키 만료시간 |
+|domain| 쿠키에 영향력이 미치는 도메인 주소 | 
+|path| 쿠키에 영향을 미치는 경로 |
+
 
 
 ### 유용한 Middleware
