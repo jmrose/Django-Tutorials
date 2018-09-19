@@ -6,10 +6,17 @@
 ```code
 bin(code)[2:]
 int(bin(code)[2:])
+
+
+>>>>> reversed
+bin(code)[:1:-1]
 ```
 
 ```
 "{0:b}".format(code)
+
+>>>>> reversed
+"{0:b}".format(code)[::-1]
 ```
 
 ```
